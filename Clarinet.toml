@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.health-screening]
+path = 'contracts/health-screening.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.mental-health-referral]
 path = 'contracts/mental-health-referral.clar'
 clarity_version = 2
